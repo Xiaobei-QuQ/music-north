@@ -27,6 +27,7 @@ $(function(){
         cover.css('animation-play-state','paused')
     }
     audio.setAttribute('autoplay','autoplay')
+    audio.setAttribute('volume','0')
     audio.oncanplay = function(){
         audio.play()
         $('.disc-container').addClass('playing')
