@@ -54,6 +54,7 @@
     width: 24vw;
     position: absolute;
     left: 45vw;
+    z-index: 1;
 }
 .disc-container .disc {
     position: relative;

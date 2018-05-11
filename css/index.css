@@ -130,7 +130,8 @@ section .idx span:before {
   font-size: 12px;
   line-height: 0.48rem;
   margin-left: 18px;
-  position: relative; }
+  position: relative;
+  color: #888; }
 
 .latesMusic > ol > li p:before {
   content: '';
