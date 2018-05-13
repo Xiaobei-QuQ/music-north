@@ -16,21 +16,22 @@ $(function(){
     //         })
     //         $('.musicLoading').remove()
     // })
-    $.get('./otherSongs.json').then(function (res) {
+    $.get('./newData.json').then(function (res) {
+        console.log(res)
         let items = res
         items.forEach((i)=>{
             let $li =$(`
                     <li>
                     <a href="./song.html?id=${i.id_}">
                     <h3>${i.name}</h3>
-                    <p>${i.album} ${i.signer}</p>
+                    <p>${i.signer} - ${i.album}</p>
                    <svg>
                     <use xlink:href="#icon-play1"></use>
                     </svg></a></li>
                 </ol>
                 `)
             $('#latesMusic').append($li)
-    })
+        })
         $('.musicLoading').remove()
     })
 })
