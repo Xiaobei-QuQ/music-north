@@ -38,30 +38,36 @@ body {
   text-decoration: none;
   padding: 0 0.2666666667rem; }
 
-.siteNav > ol {
+.siteNav ol {
   display: flex;
   text-align: center;
   outline: 1px solid #cccccc;
   font-size: 15px; }
 
-.siteNav > ol > li {
+.siteNav ol > li {
   flex: 1; }
 
-.siteNav > ol > li.active {
+.siteNav ol > li.active {
   color: #D33A31; }
 
-.siteNav > ol > li > span {
+.siteNav ol > li > span {
   line-height: 1.0666666667rem;
   display: inline-block;
   position: relative; }
 
-.siteNav > ol > li.active > span:before {
+.siteNav ol > li.active > span:before {
   border-bottom: 2px solid #D33A31;
   content: '';
   position: absolute;
   left: -4px;
   right: -4px;
   bottom: 0; }
+
+.tabContent > li {
+  display: none; }
+
+.tabContent > li.active {
+  display: block; }
 
 section .idx {
   padding-top: 0.5333333333rem;

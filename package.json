@@ -1,0 +1,23 @@
+{
+  "name": "music-north",
+  "version": "1.0.0",
+  "description": "小北的音乐项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xiaobei-QuQ/music-north.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xiaobei-QuQ/music-north/issues"
+  },
+  "homepage": "https://github.com/Xiaobei-QuQ/music-north#readme",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1"
+  }
+}
