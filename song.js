@@ -37,13 +37,11 @@ $(function(){
             let songs = res
             let song = songs.filter(s=>s.id_ == id)[0]
             let {id_,name,album,signer,lyric,album_pic} = song
+            setBg(album_pic)
             url = 'http://link.hhtjim.com/163/'+parseInt(id_)+'.mp3'
             initPlayer.call(undefined,url)
             initText(name,lyric)
-            console.log(lyric)
             parseLyric.call(undefined,lyric)
-            setBg(album_pic)
-            console.log(album_pic)
         }
     )
     function setBg(album_pic) {
@@ -52,6 +50,7 @@ $(function(){
     function initPlayer(url) {
         let audio = document.createElement('audio')
         audio.src = url
+        console.log(url)
         // 'http://link.hhtjim.com/163/551337740.mp3'
         var cover = $('.disc-container .cover')
         if ( cover.css('animation-play-state') === 'running' ) {

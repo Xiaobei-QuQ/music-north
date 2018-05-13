@@ -153,7 +153,7 @@ section .idx span:before {
   transform: translateY(-50%);
   width: 12px;
   height: 8px;
-  background: url("https://s3.music.126.net/m/s/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880");
+  background: url("../imgs/bgsq.png");
   background-size: 166px 97px;
 }
 .latesMusic > ol > li svg {
@@ -166,7 +166,7 @@ section .idx span:before {
   transform: translateY(-50%);
 }
 section.art {
-  background: url('http://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922') no-repeat center 0;
+  background: url('../imgs/bottom.png') no-repeat center 0;
   padding-top: px(63.375);
   padding-bottom: px(9);
 }

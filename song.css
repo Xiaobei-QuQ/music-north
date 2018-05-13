@@ -73,12 +73,14 @@
 .disc-container .night {
     width: 72vw;
     position: absolute;
+    display: inline-flex;
     /*animation: circle 20s infinite linear;*/
 }
 .disc-container .cover {
     width: 44.5vw;
     position: absolute;
     border-radius: 50%;
+    display:inline-flex;
     /*animation: circle 20s infinite linear;*/
 }
 .disc-container .night,

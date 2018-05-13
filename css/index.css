@@ -154,7 +154,7 @@ section .idx span:before {
   transform: translateY(-50%); }
 
 section.art {
-  background: url("http://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922") no-repeat center 0;
+  background: url("../imgs/bottom.png") no-repeat center 0;
   padding-top: 1.69rem;
   padding-bottom: 0.24rem; }
 
