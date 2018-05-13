@@ -60,27 +60,42 @@
     z-index: 1;
 }
 .disc-container .disc {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 18vw;
 }
-
+.disc-container .disc .disc-imgs {
+    position: relative;
+    width: 270px;
+    height: 275px;
+}
 .disc-container .ring {
     width: 72vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .disc-container .night {
+    display: block;
     width: 72vw;
     position: absolute;
-    display: inline-flex;
+    top: 50%;
+    left: 50%;
+    margin-top: -36vw;
+    margin-left: -36vw;
     /*animation: circle 20s infinite linear;*/
 }
 .disc-container .cover {
+    display: block;
     width: 44.5vw;
-    position: absolute;
     border-radius: 50%;
-    display:inline-flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22.25vw;
+    margin-top: -22.5vw;
     /*animation: circle 20s infinite linear;*/
 }
 .disc-container .night,
