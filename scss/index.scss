@@ -14,6 +14,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
 body {
   font-size: 16px;
 }
@@ -72,20 +75,22 @@ $designWidth : 375;
   right:-4px;
   bottom: 0;
 }
-.tabContent > li {
+.tabContent > ol > li {
   display: none;
 }
-.tabContent > li.active {
+.tabContent > ol > li.active {
   display: block;
 }
-section .idx{
+section.playlists .idx,
+section.latesMusic .idx{
   padding-top: px(20);
   padding-bottom: px(14);
 }
-section .idxauto {
+section.latesMusic .idxauto {
   padding-top: px(24);
 }
-section .idx span {
+section.playlists .idx span,
+section.latesMusic .idx span{
   display: block;
   font-size: 17px;
   line-height: 20px;
@@ -94,7 +99,8 @@ section .idx span {
   padding-left: 9px;
   position: relative;
 }
-section .idx span:before {
+section.playlists .idx span:before,
+section.latesMusic .idx span:before{
   display: block;
   position: absolute;
   border-left: 2px solid #D33A31;

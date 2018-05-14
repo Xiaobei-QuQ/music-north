@@ -32,7 +32,7 @@ $(function(){
     //         })
     //     }
     // )
-    $.get('./newData.json').then(
+    $.get('./data/播放列表.json').then(
         function (res) {
             let songs = res
             let song = songs.filter(s=>s.id_ == id)[0]

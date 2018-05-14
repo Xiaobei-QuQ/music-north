@@ -16,7 +16,7 @@ $(function(){
     //         })
     //         $('.musicLoading').remove()
     // })
-    $.get('./newData.json').then(function (res) {
+    $.get('./data/最新音乐.json').then(function (res) {
         let items = res
         items.forEach((i)=>{
             let $li =$(`
@@ -38,22 +38,22 @@ $(function(){
         $li.siblings().removeClass('active')
         let index = $li.index()
         $li.trigger('tabChange',index)
-        $('.tabContent > li').eq(index).addClass('active')
+        $('.tabContent > ol > li').eq(index).addClass('active')
             .siblings().removeClass('active')
     })
     $('.siteNav').on('tabChange',function (e,index) {
-        let $li = $('.tabContent > li').eq(index)
+        let $li = $('.tabContent > ol > li').eq(index)
         if($li.attr('data-downloaded') === 'yes') {
             return
         }
          if(index === 1) {
-            $.get('./page2.json').then((response)=>{
-                $li.text(response.content)
+            $.get('./data/热歌榜.json').then((response)=>{
+                hotSonglist(response)
                 $li.attr('data-downloaded','yes')
                 $('.tab2Loading').remove()
          })
         }else if(index === 2){
-            $.get('./page3.json').then((response)=>{
+            $.get('./data/page3.json').then((response)=>{
                 $li.text(response.content)
                 $li.attr('data-downloaded','yes')
              $('.tab3Loading').remove()
@@ -98,5 +98,20 @@ $(function(){
                 )
             })
     }
-    window.search = search
+    function hotSonglist(response) {
+        let items = response
+        items.forEach((i)=>{
+            let $li =$(`
+                    <li>
+                    <a href="./song.html?id=${i.id_}">
+                    <h3>${i.name}</h3>
+                    <p>${i.singer} - ${i.album}</p>
+                   <svg>
+                    <use xlink:href="#icon-play1"></use>
+                    </svg></a>
+                    </li>
+                `)
+            $('#hotSonglist').append($li)
+        })
+    }
 })
