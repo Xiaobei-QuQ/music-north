@@ -30,8 +30,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
-}
+  z-index: 2; }
 
 .topbar .logo {
   width: 3.7866666667rem;
@@ -52,11 +51,11 @@ body {
   position: fixed;
   width: 100%;
   background: #fff;
-  margin-top: 61px;
+  margin-top: 1.7066666667rem;
   top: 0;
   left: 0;
-  z-index: 2;
-}
+  z-index: 2; }
+
 .siteNav ol {
   display: flex;
   text-align: center;
@@ -81,9 +80,9 @@ body {
   left: -4px;
   right: -4px;
   bottom: 0; }
+
 .tabContent {
-  margin-top: 98px;
-}
+  margin-top: 2.7733333333rem; }
 
 .tabContent > ol > li {
   display: none; }
@@ -184,9 +183,7 @@ section.latesMusic .idx span:before {
   right: 0.4rem;
   top: 50%;
   transform: translateY(-50%); }
-.hotSonglist {
 
-}
 section.art {
   background: url("../imgs/bottom.png") no-repeat center 0;
   padding-top: 1.69rem;

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9bdf81-e688-4465-91a2-3e1c0098e46d" name="Default" comment="" />
+    <list default="true" id="1c9bdf81-e688-4465-91a2-3e1c0098e46d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,11 +37,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1546">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="396">
+              <caret line="157" selection-start-line="5" selection-end-line="157" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,8 +72,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+            <state relative-caret-position="434">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -110,7 +120,6 @@
         <option value="$PROJECT_DIR$/page3.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/scss/index.scss" />
         <option value="$PROJECT_DIR$/song.html" />
         <option value="$PROJECT_DIR$/css/song.css" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/song.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/scss/index.scss" />
       </list>
     </option>
   </component>
@@ -136,7 +146,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="700" />
+    <option name="x" value="545" />
     <option name="y" value="26" />
     <option name="width" value="1472" />
     <option name="height" value="1000" />
@@ -226,15 +236,15 @@
       <workItem from="1526179945859" duration="24000" />
       <workItem from="1526180031705" duration="15723000" />
       <workItem from="1526221702037" duration="5315000" />
-      <workItem from="1526277689951" duration="3787000" />
+      <workItem from="1526277689951" duration="4670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103530000" />
+    <option name="totallyTimeSpent" value="104413000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="700" y="26" width="1472" height="1000" extended-state="0" />
+    <frame x="545" y="26" width="1472" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23913044" />
@@ -412,13 +422,6 @@
     <entry file="file://$PROJECT_DIR$/song.js" />
     <entry file="file://$PROJECT_DIR$/page2.json" />
     <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3600">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/song.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -456,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+        <state relative-caret-position="434">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -470,9 +473,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1546">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="396">
+          <caret line="157" selection-start-line="5" selection-end-line="157" selection-end-column="1" />
         </state>
       </provider>
     </entry>
