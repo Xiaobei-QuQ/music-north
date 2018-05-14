@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9bdf81-e688-4465-91a2-3e1c0098e46d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lyric.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/otherSongs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/song.html" beforeDir="false" afterPath="$PROJECT_DIR$/song.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/songs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wymusic_zxgd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/网易云__最新音乐.py" beforeDir="false" />
-    </list>
+    <list default="true" id="1c9bdf81-e688-4465-91a2-3e1c0098e46d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -56,8 +35,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="-1546">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -247,12 +226,12 @@
       <workItem from="1526179945859" duration="24000" />
       <workItem from="1526180031705" duration="15723000" />
       <workItem from="1526221702037" duration="5315000" />
-      <workItem from="1526277689951" duration="3424000" />
+      <workItem from="1526277689951" duration="3787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103167000" />
+    <option name="totallyTimeSpent" value="103530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="700" y="26" width="1472" height="1000" extended-state="0" />
@@ -492,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="-1546">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

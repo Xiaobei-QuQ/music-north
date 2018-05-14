@@ -134,6 +134,7 @@ section.latesMusic .idx span:before {
   width: 100%; }
 
 .playlists > ul > li p {
+  font-size: 13px;
   padding: 0 0.1rem;
   overflow: hidden;
   text-overflow: ellipsis;
