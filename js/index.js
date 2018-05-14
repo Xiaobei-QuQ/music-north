@@ -62,10 +62,12 @@ $(function(){
     })
     let timer = undefined
     $('input#searchSong').on('input',function (e) {
+    $('.searchWrap i .icon-cancel').addClass('active')
+        $('.output').addClass('active')
         let $input = $(e.currentTarget)
         let value = $input.val().trim()
         console.log(value)
-        if(value === undefined){return}
+        if(value == ''){return $('.output').text('')}
         if(timer){
             clearTimeout(timer)
         }
@@ -73,21 +75,36 @@ $(function(){
             search(value).then((result)=>{
                 timer = undefined
                 if(result.length !== 0){
-                    console.log(result)
-                    $('.output').text(result.map(r=>r.name).join(','))
+                let outValue = result
+                outValue.forEach((i)=>{
+                    let outText = ` 
+                        <li>
+                            <i>
+                            <svg class="icon-search">
+                                <use xlink:href="#icon-search"></use>
+                            </svg>
+                            </i>
+                            <span>${i.name}</span>
+                        </li>
+                `
+                    $('.output ol').append(outText)
+                })
+                $('.showSearch').text("搜索\""+value+"\"")
                 }else{
                     $('.output').text('没有结果')
                 }
             })
         },300)
     })
-
+    $('.searchWrap i .icon-cancel').on('click',function () {
+        $('input#searchSong').val('')
+    })
     function search(keyword) {
             return new Promise((resolve, reject) => {
                 var database = [
                     {"id": 1, "name": "那些花儿"},
                     {"id": 2, "name": "情非得已"},
-                    {"id": 3, "name": "找自己"}
+                    {"id": 3, "name": "找自己儿"}
                 ]
                 let result = database.filter(function (item) {
                     return item.name.indexOf(keyword) >= 0
@@ -100,9 +117,12 @@ $(function(){
     }
     function hotSonglist(response) {
         let items = response
+        let index = 0
         items.forEach((i)=>{
+            index++
+            if(index<10){index = '0'+ index}
             let $li =$(`
-                    <li>
+                    <li><span>${index}</span>
                     <a href="./song.html?id=${i.id_}">
                     <h3>${i.name}</h3>
                     <p>${i.singer} - ${i.album}</p>
@@ -114,4 +134,9 @@ $(function(){
             $('#hotSonglist').append($li)
         })
     }
+    let date = new Date()
+    let month =  date.getMonth()+1
+    let day = date.getDate()
+    console.log(day)
+    $('.hot-title .hot-time').text('更新时间：'+month+'月'+day+'日')
 })

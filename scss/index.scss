@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-size: 16px; }
 
+input:focus, textarea:focus {
+  outline: none;
+}
+
 .topbar {
   background: #D43C33;
   padding: 0.4266666667rem 0.2666666667rem;
@@ -220,3 +224,180 @@ section.art .copyright {
   font-size: 12px;
   line-height: 0.4266666667rem;
   transform: scale(0.75); }
+.hot-title {
+  width: 100%;
+  height: px(145.88);
+  background: url('../imgs/hot_music.jpg') no-repeat center;
+  background-size: cover;
+  padding-left: px(20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hot-title .hot-icon {
+  width: px(142);
+  height: px(67);
+  background: url('../imgs/hot-icon.png') no-repeat;
+  background-size: px(166) px(97);
+  background-position: -24px -30px;
+}
+.hot-time {
+  margin-top: px(10);
+  line-height: 16px;
+  font-size: 12px;
+  height: px(18);
+  color: hsla(0,0%,100%,.8);
+}
+.tabContent .hotSonglist > li {
+  position: relative;
+  border-bottom: 1px solid #E2E2E2;
+  padding: 0.16rem 0;
+}
+.tabContent .hotSonglist > li > span {
+  position: absolute;
+  font-size: 17px;
+  top: 50%;
+  left: 0;
+  color: #999;
+  transform: translateY(-50%);
+}
+.hotSonglist > li > a {
+  display: block;
+  margin-left: px(28);
+}
+.hotSonglist  > li h3 {
+  font-size: 17px;
+  line-height: 0.6666666667rem;
+  font-weight: normal; }
+
+.hotSonglist  > li p {
+  font-size: 12px;
+  line-height: 0.48rem;
+  margin-left: 18px;
+  position: relative;
+  color: #888; }
+
+.hotSonglist > li p:before {
+  content: '';
+  position: absolute;
+  left: -18px;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 8px;
+  background: url("../imgs/bgsq.png");
+  background-size: 166px 97px; }
+
+.hotSonglist > li svg {
+  width: 0.5866666667rem;
+  height: 0.5866666667rem;
+  fill: #aaaaaa;
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%); }
+.searchWrap {
+  margin: px(15) auto;
+  width: px(355);
+  height: px(30);
+  border-radius: px(500);
+  background: #ECEDED;
+  position: relative;
+}
+.tabContent ol::before {
+  content: '';
+  display: table;
+}
+.searchSong {
+  display: block;
+  border: none;
+  line-height: px(18);
+  height: px(30);
+  background: #ECEDED;
+  font-size: 14px;
+  color: #333;
+  width: px(295);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.searchWrap i svg {
+  width: px(13);
+  height: px(13);
+  position: absolute;
+  margin: 0 px(8);
+  fill: #CBCBCC;
+}
+.searchWrap i .icon-search {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.searchWrap i .icon-cancel {
+  display: none;
+}
+.searchWrap i .icon-cancel.active {
+  display: block;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.output {
+  display: none;
+}
+.output.active {
+  display: block;
+}
+.output .showSearch {
+  color: #507daf;
+  margin-left: px(10);
+  font-size: 15px;
+  line-height: px(50);
+  height: px(50);
+  border-bottom: 1px solid #E6E6E6;
+  position: relative;
+}
+.output .showSearch:before {
+  position: absolute;
+  content: '';
+  width:120%;
+  height: 0;
+  left: -20%;
+  top: 0;
+  border-top: 1px solid #E6E6E6;
+}
+.output ol li {
+  margin-left: px(10);
+  display: flex;
+  align-items: center;
+}
+.output ol li i {
+
+}
+.output ol li svg {
+  margin-left: px(10);
+  width: px(15);
+  height: px(15);
+}
+.output ol li span {
+  display: block;
+  font-size: 15px;
+  margin-left: px(10);
+  line-height: px(45);
+  height: px(45);
+  width: 100%;
+  position: relative;
+}
+.output ol li span::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 200%;
+  height: 200%;
+  border-bottom: 1px solid #E6E6E6;
+  transform: scale(.5);
+  transform-origin: top left;
+}
