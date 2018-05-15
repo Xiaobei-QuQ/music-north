@@ -20,13 +20,12 @@ $(function(){
         let items = res
         items.forEach((i)=>{
             let $li =$(`
-                    <li>
-                    <a href="./song.html?id=${i.id_}">
+                    <a href="./song.html?id=${i.id_}"><li>
                     <h3>${i.name}</h3>
-                    <p>${i.signer} - ${i.album}</p>
+                    <p>${i.singer} - ${i.album}</p>
                    <svg>
                     <use xlink:href="#icon-play1"></use>
-                    </svg></a></li>
+                    </svg></li></a>
                 </ol>
                 `)
             $('#latesMusic').append($li)
@@ -60,14 +59,18 @@ $(function(){
             })
         }
     })
-    let timer = undefined
-    $('input#searchSong').on('input',function (e) {
-    $('.searchWrap i .icon-cancel').addClass('active')
+    $('input#searchSong').on('click',function () {
+        $('.searchWrap i .icon-cancel').addClass('active')
         $('.output').addClass('active')
+    })
+    let timer = undefined
+    $('input#searchSong').on('input propertychange',function (e) {
+        $('.output a').remove()
         let $input = $(e.currentTarget)
         let value = $input.val().trim()
+        $('.showSearch').text("搜索：\""+value+"\"")
         console.log(value)
-        if(value == ''){return $('.output').text('')}
+        if(value == ''){return}
         if(timer){
             clearTimeout(timer)
         }
@@ -78,20 +81,23 @@ $(function(){
                 let outValue = result
                 outValue.forEach((i)=>{
                     let outText = ` 
-                        <li>
+                        <a href="./song.html?id=${i.id_}"><li>
                             <i>
                             <svg class="icon-search">
                                 <use xlink:href="#icon-search"></use>
                             </svg>
                             </i>
-                            <span>${i.name}</span>
-                        </li>
+                            <span>${i.name}-${i.singer}</span>
+                        </li></a>
                 `
                     $('.output ol').append(outText)
                 })
-                $('.showSearch').text("搜索\""+value+"\"")
+
                 }else{
-                    $('.output').text('没有结果')
+                    let noOut = `
+                    <a><li><span>无搜索结果</span</li></a>
+                    `
+                    $('.output ol').append(noOut)
                 }
             })
         },300)
@@ -101,18 +107,21 @@ $(function(){
     })
     function search(keyword) {
             return new Promise((resolve, reject) => {
-                var database = [
-                    {"id": 1, "name": "那些花儿"},
-                    {"id": 2, "name": "情非得已"},
-                    {"id": 3, "name": "找自己儿"}
-                ]
-                let result = database.filter(function (item) {
-                    return item.name.indexOf(keyword) >= 0
+                $.get('./data/播放列表.json').then((response)=>{
+                    let database = response
+                    let result1 = database.filter(function (item) {
+                        return item.name.indexOf(keyword) >=0
+                    })
+                    let result2 = database.filter(function (item) {
+                        return item.singer.indexOf(keyword) >=0
+                    })
+                    let result = result1.concat(result2)
+                    console.log(result)
+                    setTimeout(function () {
+                        resolve(result)
+                    },(Math.random() * 300 + 1000)
+                    )
                 })
-                setTimeout(function () {
-                    resolve(result)
-                },(Math.random() * 300 + 1000)
-                )
             })
     }
     function hotSonglist(response) {

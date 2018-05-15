@@ -36,7 +36,7 @@ $(function(){
         function (res) {
             let songs = res
             let song = songs.filter(s=>s.id_ == id)[0]
-            let {id_,name,album,signer,lyric,album_pic} = song
+            let {id_,name,album,singer,lyric,album_pic} = song
             setBg(album_pic)
             url = 'http://link.hhtjim.com/163/'+parseInt(id_)+'.mp3'
             initPlayer.call(undefined,url)

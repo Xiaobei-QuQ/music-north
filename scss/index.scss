@@ -157,24 +157,24 @@ section.latesMusic .idx span:before {
 .latesMusic > ol {
   padding-left: calc(0.26rem + 2px); }
 
-.latesMusic > ol > li {
+.latesMusic > ol  li {
   border-bottom: 1px solid #E2E2E2;
   padding: 0.16rem 0;
   position: relative; }
 
-.latesMusic > ol > li h3 {
+.latesMusic > ol  li h3 {
   font-size: 17px;
   line-height: 0.6666666667rem;
   font-weight: normal; }
 
-.latesMusic > ol > li p {
+.latesMusic > ol  li p {
   font-size: 12px;
   line-height: 0.48rem;
   margin-left: 18px;
   position: relative;
   color: #888; }
 
-.latesMusic > ol > li p:before {
+.latesMusic > ol  li p:before {
   content: '';
   position: absolute;
   left: -18px;
@@ -185,7 +185,7 @@ section.latesMusic .idx span:before {
   background: url("../imgs/bgsq.png");
   background-size: 166px 97px; }
 
-.latesMusic > ol > li svg {
+.latesMusic > ol  li svg {
   width: 0.5866666667rem;
   height: 0.5866666667rem;
   fill: #aaaaaa;
