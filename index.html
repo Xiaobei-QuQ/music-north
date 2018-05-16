@@ -95,7 +95,7 @@
                             <use xlink:href="#icon-search"></use>
                         </svg>
                     </i>
-                    <input type="text" style="" id="searchSong" class="searchSong">
+                    <input type="text" style="" placeholder="搜索歌曲、歌手、专辑" id="searchSong" class="searchSong">
                     <i>
                         <svg class="icon-cancel">
                             <use xlink:href="#icon-cancel"></use>
@@ -113,34 +113,8 @@
         </ol>
     </section>
 </div>
-    <script src="http://at.alicdn.com/t/font_655111_sf2mi2331r4fgvi.js"></script>
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./node_modules/leancloud-storage/dist/av-min.js"></script>
-    <script>
-        var APP_ID = 'ptc0Ja7jB8D7t1UzelG1MF2r-gzGzoHsz';
-        var APP_KEY = 'AaVkJV2FBJPQ3wrtn9QfR4HF';
-        AV.init({
-            appId: APP_ID,
-            appKey: APP_KEY
-        });
-        /*
-        var TestObject = AV.Object.extend('TestObject');
-        var testObject = new TestObject();
-        testObject.save({
-            words: 'Hello World!'
-        }).then(function(object) {
-            alert('LeanCloud Rocks!');
-        })
-
-        var SongObject = AV.Object.extend('Song'); //选择表名
-        var songObject = new SongObject(); // 生成一条数据
-        songObject.save({
-            name: 'Hello World!',//数据里面的内容
-            singer: 'north'
-        }).then(function(object) {
-            alert('保存成功');
-        })*/
-    </script>
+    <script type="text/javascript" src="http://at.alicdn.com/t/font_655111_sf2mi2331r4fgvi.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

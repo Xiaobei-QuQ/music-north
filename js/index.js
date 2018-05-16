@@ -115,7 +115,10 @@ $(function(){
                     let result2 = database.filter(function (item) {
                         return item.singer.indexOf(keyword) >=0
                     })
-                    let result = result1.concat(result2)
+                    let result3 = database.filter(function (item) {
+                        return item.album.indexOf(keyword) >=0
+                    })
+                    let result = result1.concat(result2).concat(result3)
                     console.log(result)
                     setTimeout(function () {
                         resolve(result)
