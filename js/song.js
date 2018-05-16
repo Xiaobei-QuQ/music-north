@@ -56,10 +56,8 @@ $(function(){
         if ( cover.css('animation-play-state') === 'running' ) {
             cover.css('animation-play-state','paused')
         }
-        audio.setAttribute('autoplay','autoplay')
-        audio.setAttribute('volume','0')
-        audio.oncanplay = function(){
-            audio.play()
+        audio.setAttribute('autoplay','true')
+        audio.onplay = function(){
             $('.disc-container').addClass('playing')
             cover.css('animation-play-state','running')
         }

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9bdf81-e688-4465-91a2-3e1c0098e46d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/44514c1a2a815be52e58644c5704ea3487f8263e/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/leancloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/leancloud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="song.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="song.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/song.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6516">
+            <state relative-caret-position="431">
               <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
             </state>
           </provider>
@@ -27,32 +43,36 @@
       </file>
       <file leaf-file-name="song.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/song.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="900">
+              <caret line="261" column="14" lean-forward="true" selection-start-line="261" selection-start-column="14" selection-end-line="261" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="song.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="song.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/song.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="216">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+            <state relative-caret-position="554">
+              <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -113,7 +133,10 @@
       <find>signer</find>
       <find>$li</find>
       <find>无搜索</find>
+      <find>cons</find>
       <find>console</find>
+      <find>搜索</find>
+      <find>icon-play</find>
     </findStrings>
     <replaceStrings>
       <replace>lyric</replace>
@@ -142,15 +165,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/data/hotSong.json" />
         <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/scss/index.scss" />
         <option value="$PROJECT_DIR$/css/song.css" />
         <option value="$PROJECT_DIR$/song.html" />
         <option value="$PROJECT_DIR$/scss/song.scss" />
         <option value="$PROJECT_DIR$/data/最新音乐.json" />
-        <option value="$PROJECT_DIR$/js/song.js" />
         <option value="$PROJECT_DIR$/data/播放列表.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/index.scss" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/js/song.js" />
       </list>
     </option>
   </component>
@@ -169,7 +192,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="688" />
+    <option name="x" value="771" />
     <option name="y" value="28" />
     <option name="width" value="1462" />
     <option name="height" value="998" />
@@ -261,15 +284,15 @@
       <workItem from="1526221702037" duration="5315000" />
       <workItem from="1526277689951" duration="20705000" />
       <workItem from="1526359727998" duration="8698000" />
-      <workItem from="1526445527169" duration="6729000" />
+      <workItem from="1526445527169" duration="8778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135875000" />
+    <option name="totallyTimeSpent" value="137924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="688" y="28" width="1462" height="998" extended-state="0" />
+    <frame x="771" y="28" width="1462" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24717514" />
@@ -440,34 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/song.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/song.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6516">
-          <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/最新音乐.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="886" selection-start-line="3" selection-start-column="886" selection-end-line="3" selection-end-column="886" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/song.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -504,17 +503,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/index.scss">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="554">
+          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="900">
+          <caret line="261" column="14" lean-forward="true" selection-start-line="261" selection-start-column="14" selection-end-line="261" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/song.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/song.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/song.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
         </state>
       </provider>
     </entry>

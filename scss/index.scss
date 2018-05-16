@@ -252,6 +252,7 @@ section.art .copyright {
   position: relative;
   border-bottom: 1px solid #E2E2E2;
   padding: 0.16rem 0;
+  //color: #df3436;
 }
 .tabContent .hotSonglist > li > span {
   position: absolute;
@@ -260,6 +261,11 @@ section.art .copyright {
   left: 0;
   color: #999;
   transform: translateY(-50%);
+}
+.tabContent .hotSonglist > li:nth-child(1) > span,
+.tabContent .hotSonglist > li:nth-child(2) > span,
+.tabContent .hotSonglist > li:nth-child(3) > span {
+  color: #df3436;
 }
 .hotSonglist > li > a {
   display: block;

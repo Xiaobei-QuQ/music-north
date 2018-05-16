@@ -255,6 +255,11 @@ section.art .copyright {
   color: #999;
   transform: translateY(-50%); }
 
+.tabContent .hotSonglist > li:nth-child(1) > span,
+.tabContent .hotSonglist > li:nth-child(2) > span,
+.tabContent .hotSonglist > li:nth-child(3) > span {
+  color: #df3436; }
+
 .hotSonglist > li > a {
   display: block;
   margin-left: 0.7466666667rem; }

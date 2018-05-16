@@ -66,7 +66,7 @@ $(function () {
             $('.output a').remove()
             let $input = $(e.currentTarget)
             let value = $input.val().trim()
-            $('.showSearch').text("搜索：\"" + value + "\"")
+            $('.showSearch').text("搜索\"" + value + "\"结果为：")
             if (timer) {
                 clearTimeout(timer)
             }
@@ -106,7 +106,7 @@ $(function () {
                         $('.output ol').append(noOut)
                     }
                 })
-            }, 1000)
+            }, 500)
         })
     }
 
@@ -126,14 +126,13 @@ $(function () {
             let result = result1.concat(result2).concat(result3)
             setTimeout(function () {
                 resolve(result)
-            }, (Math.random() * 300 + 1000))
+            }, (Math.random() * 300 + 500))
         })
     })
     }
 
     function hotSonglist(response) {
         let items = response
-        console.log(items)
         let index = 0
         items.forEach((i) => {
             index++
